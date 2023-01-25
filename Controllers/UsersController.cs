@@ -16,18 +16,18 @@ namespace PetsMongo.Controllers
             _jWTManager = jWTManager;
         }
 
-        [HttpGet]
-        public List<string> Get()
-        {
-            var users = new List<string>
-        {
-            "Satinder Singh",
-            "Amit Sarna",
-            "Davin Jon"
-        };
-
-            return users;
-        }
+        //[HttpGet]
+        //public List<string> Get()
+        //{
+        //    var users = new List<string>
+        //    {
+        //        "Satinder Singh",
+        //        "Amit Sarna",
+        //        "Davin Jon"
+        //    };
+        //
+        //    return users;
+        //}
 
         [AllowAnonymous]
         [HttpPost]

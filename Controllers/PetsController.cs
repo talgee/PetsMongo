@@ -55,6 +55,7 @@ namespace PetsMongo.Controllers
         public async Task<int> GetSumAges()
         {
             var sum = await _mongoDBService.SumOfAgesAsync();
+
             return sum;
         }
     }
